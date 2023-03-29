@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "next": "latest",
+    "next-auth": "^4.20.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.8",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "@types/react": "18.0.30",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.37.0",
+    "eslint-config-next": "13.2.4",
+    "postcss": "^8.4.21",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.0.2"
+  }
+}
